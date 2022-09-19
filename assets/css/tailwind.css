@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .container {
+    @apply px-10
+  }
+
+}
+
+body {
+  background-color: #F6FBFF;
+  font-family: 'Poppins', sans-serif;
+}
+.logoImg {
+  height: 40px;
+  width: 133px;
+}
+
+.globe {
+  width: 29px;
+  height: 29px;
+}
+
+.btn-login {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn-submit{
+  background-color: #FF6868;
+  color: #fff;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.free {
+  color: #FF6868;
+}
+.gray {
+  background-color: #ECECEC;
+  width: 376px;
+  height: 264px;
+  border-radius: 10px;
+}
+
+.create-acc {
+  height: 721px;
+  width: 543px;
+}
+
+.input-style {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  outline: none;
+  /* width: 259px; */
+}
+
+.log {
+  background-color: #2A3239;
+}
+
